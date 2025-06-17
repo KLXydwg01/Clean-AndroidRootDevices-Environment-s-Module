@@ -9,10 +9,11 @@
 
 ✨ 功能特性
 - 🔧 自动化环境优化
--- 开机自动清理指定的风险文件和目录、自动关闭开发者选项、ADB 调试模式、设置 SELinux 为 Enforcing 模式，加强系统安全性
-📦 集成常用模块安装逻辑
-自动识别并安装适配当前加载器的必要模块（如 Zygisk Next、LSPosed、Shamiko、Tricky Store 等）
-支持通用模块安装流程，便于扩展
+- 开机自动清理指定的风险文件和目录、自动关闭开发者选项、ADB 调试模式、设置 SELinux 为 Enforcing 模式，加强系统安全性
+
+- 📦 集成常用模块安装逻辑
+=自动识别并安装适配当前加载器的必要模块（如 Zygisk Next、LSPosed、Shamiko、Tricky Store 等）
+
 🔄 多加载器兼容
 完美适配以下加载器：
  Magisk
