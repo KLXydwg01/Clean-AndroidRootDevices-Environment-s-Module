@@ -13,15 +13,9 @@
 
 - 📦 集成常用模块安装逻辑 自动识别并安装适配当前加载器的必要模块（如 Zygisk Next、LSPosed、Shamiko、Tricky Store 等）
 
+- 🔄 多管理器兼容 完美适配以下SU管理器：Magisk、KernelSU、Apatch 及这些管理器的所有分支版本，模块在刷入时自动检测SU管理器类型并执行对应安装脚本
 
-🔄 多加载器兼容
-完美适配以下加载器：
- Magisk
- KernelSU / KernelSU Next
- Apatch / Apatch Next
- SukiSU
- AlphaSU
-自动检测加载器类型并执行对应安装脚本
+
 🧼 安全校验机制
 内置 SHA256 文件完整性校验机制，防止模块被篡改或损坏
 安装前自动验证所有关键文件哈希值
